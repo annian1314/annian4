@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "欢迎使用俊驰一键搭建"
+echo "欢迎使用海豚一键搭建"
 echo "即将搭建的是5.01版本"
 echo "准备开始安装"
 read -p "回车后开始安装"
@@ -29,7 +29,7 @@ make
 make install
 
 git clone https://github.com/annian1314/annian4.git
-cd junchi/
+cd annian4/
 npm i
 npm i -g pino
 npm install -g forever
