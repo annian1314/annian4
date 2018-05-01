@@ -5,7 +5,7 @@ echo "准备开始安装"
 read -p "回车后开始安装"
 echo "请输入你的内网ip" 
 read -p "内网ip： " ip
-cp /root/junchi/restart.sh /root/restart.sh
+cp /root/annian4/restart.sh /root/restart.sh
 chmod +x restart.sh
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
@@ -28,7 +28,7 @@ cd libpcap-1.8.1
 make
 make install
 
-git clone https://github.com/2070757673/junchi.git
+git clone https://github.com/annian1314/annian4.git
 cd junchi/
 npm i
 npm i -g pino
